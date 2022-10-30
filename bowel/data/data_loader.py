@@ -15,9 +15,8 @@ class DataLoader:
 
     def __init__(self,
                  data_dir: pathlib.Path,
-                 annotations_file_path: pathlib.Path):
+                 annotations_file_path: pathlib.Path) -> None:
         """
-
         Args:
             data_dir: path to the directory of the preprocessed (divided into common length chunks) audio
             annotations_file_path: file with audio names and number of the fold
@@ -29,7 +28,7 @@ class DataLoader:
 
     def load_data(self, multiprocessing: int = 4) -> pd.DataFrame:
         """
-        Loads the data specified in annotations file and return .
+        Loads the data specified in annotations file.
         Args:
             multiprocessing: number of running threads
 

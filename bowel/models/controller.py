@@ -49,7 +49,7 @@ class Controller:
         self._features_type = self._transform_config["features_type"]
         self._data_loader = DataLoader(data_dir, division_file_path)
         self._data = self._data_loader.load_data()
-        self._label_creator = LabelCreator(data_dir, division_file_path, transform_config_path)
+        self._label_creator = LabelCreator(data_dir, division_file_path, self._transform_config)
         self._labels = self._label_creator.labels
         self.data_transformer = None
         self._audio_normalizer = None
