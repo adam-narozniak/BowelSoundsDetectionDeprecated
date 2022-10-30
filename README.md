@@ -6,7 +6,6 @@ Create environment with required libraries using conda:
 
 ```
 $ conda env create -f environment.yml
-
 ```
 
 
