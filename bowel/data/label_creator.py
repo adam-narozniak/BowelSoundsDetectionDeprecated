@@ -21,7 +21,6 @@ class LabelCreator:
     def __init__(self, data_dir: pathlib.Path, division_file_path: pathlib.Path, config: dict) -> None:
         self._data_dir = data_dir
         self.division_file_path = division_file_path
-        self._config_path = config
         self._config = config
         self._wav_sample_length = None
         self._frame_length = None
