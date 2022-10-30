@@ -14,7 +14,6 @@ class LabelCreator:
         self._config_path = config_path
         self._config = None
         self._load_config()
-        # self._store_absolute()
         self._wav_sample_length = None
         self._frame_length = None
         self.n_substamps = None
