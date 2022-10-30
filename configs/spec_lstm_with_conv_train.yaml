@@ -1,0 +1,7 @@
+model_type: spec_lstm_with_conv
+kfold: 5
+epochs: 200
+loss: binary_crossentropy
+optimizer: adam
+patience: 15
+validation_split: 0.15

@@ -1,0 +1,13 @@
+features_type: spec
+sr: 44100
+wav_sample_length: 2
+relative_fft: 0.01
+relative_hop_length: 0.0025
+relative_frame_length: 0.01
+min_freq: 0
+max_freq: 2000
+window_type: hann
+mode: mel
+normalize_audio: True
+normalize_features: True
+n_mels: 21

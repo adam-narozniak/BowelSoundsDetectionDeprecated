@@ -1,0 +1,5 @@
+model_type: mean_std_reg
+kfold: 5
+epochs: 100
+library: sklearn
+class_weight: balanced

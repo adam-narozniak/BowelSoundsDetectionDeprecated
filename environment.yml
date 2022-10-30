@@ -1,0 +1,19 @@
+name: bowel
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.5
+  - numpy=1.19.5
+  - pandas=1.2.5
+  - matplotlib=3.4.2
+  - librosa=0.8.1
+  - pip=21.1.2
+  - scikit-learn=0.24.2
+  - pyyaml=5.4.1
+  - xlsxwriter=1.4.3
+  - gitpython=3.1.24
+  - loguru=0.5.3
+  - pip:
+      - Flask==2.0.2
+      - wandb==0.10.32
+      - tensorflow==2.5.0

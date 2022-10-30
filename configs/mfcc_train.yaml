@@ -1,0 +1,8 @@
+model_type: mfcc_lstm
+kfold: 5
+epochs: 2
+loss: binary_crossentropy
+optimizer: adam
+library: keras
+patience: 10
+validation_split: 0.15
